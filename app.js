@@ -35,9 +35,3 @@ app.use("/api", router);
 app.listen(config.port, () => {
   console.log(`Server is running on port ${config.port}.`);
 });
-
-//winston
-//morgan
-//symmetric or assymetric encryption for JWT
-//1xx 2xx 3xx 4xx 5xx
-//soft delete
